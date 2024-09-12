@@ -1,0 +1,36 @@
+[
+    {
+        "question": "I. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda sunt quis laboriosam? Sint dicta architecto nostrum natus odio laborum libero commodi quidem. Esse corrupti reiciendis vero minus, quidem explicabo!",
+        "answer": {
+            "0": "A) Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda sunt quis laboriosam? Sint dicta architecto nostrum natus odio laborum libero commodi quidem. Esse corrupti reiciendis vero minus, quidem explicabo!",
+            "1": "B) Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda sunt quis laboriosam? Sint dicta architecto nostrum natus odio laborum libero commodi quidem. Esse corrupti reiciendis vero minus, quidem explicabo!",
+            "2": "C) Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda sunt quis laboriosam? Sint dicta architecto nostrum natus odio laborum libero commodi quidem. Esse corrupti reiciendis vero minus, quidem explicabo!"
+        },
+        "correct": "0",
+        "score": 1,
+        "time": 3
+    },
+    {
+        "question": "II. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda sunt quis laboriosam? Sint dicta architecto nostrum natus odio laborum libero commodi quidem. Esse corrupti reiciendis vero minus, quidem explicabo!",
+        "answer": {
+            "0": "A) Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda sunt quis laboriosam? Sint dicta architecto nostrum natus odio laborum libero commodi quidem. Esse corrupti reiciendis vero minus, quidem explicabo!",
+            "1": "B) Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda sunt quis laboriosam? Sint dicta architecto nostrum natus odio laborum libero commodi quidem. Esse corrupti reiciendis vero minus, quidem explicabo!"
+        },
+        "correct": "0",
+        "score": 1,
+        "time": 3
+    },
+
+    {
+        "question": "II. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda sunt quis laboriosam? Sint dicta architecto nostrum natus odio laborum libero commodi quidem. Esse corrupti reiciendis vero minus, quidem explicabo!",
+        "answer": {
+            "0": "A) Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda sunt quis laboriosam? Sint dicta architecto nostrum natus odio laborum libero commodi quidem. Esse corrupti reiciendis vero minus, quidem explicabo!",
+            "1": "B) Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda sunt quis laboriosam? Sint dicta architecto nostrum natus odio laborum libero commodi quidem. Esse corrupti reiciendis vero minus, quidem explicabo!",
+            "2": "C) Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda sunt quis laboriosam? Sint dicta architecto nostrum natus odio laborum libero commodi quidem. Esse corrupti reiciendis vero minus, quidem explicabo!",
+            "3": "D) Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda sunt quis laboriosam? Sint dicta architecto nostrum natus odio laborum libero commodi quidem. Esse corrupti reiciendis vero minus, quidem explicabo!"
+        },
+        "correct": "2",
+        "score": 1,
+        "time": 12
+    }
+]
