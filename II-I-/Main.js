@@ -301,7 +301,7 @@ function Theme(theme) {
 async function Main() {
     Theme(window.localStorage.getItem("theme"));
     const Color = new Switch("div", "style-switch").Append(window.document.querySelector("body"));
-    Color.Text('<span class="material-symbols-outlined">invert_colors</span>');
+    Color.Text('<span class="material-symbols-outlined style-invert-color">invert_colors</span>');
     Color.Action("click", (state) => {
         const className = window.document.body.className.replace(/(style\-theme\-color\-dark|style\-theme\-color\-light)/g, '');
         const theme = (state ? "style-theme-color-dark" : "style-theme-color-light") + ' ' + className;

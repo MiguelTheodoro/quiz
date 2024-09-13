@@ -869,24 +869,134 @@ td {
 
 .style-switch {
 
-    width: 30px;
-    aspect-ratio: 1/1;
-    border-radius: 2px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     right: 10px;
     bottom: 10px;
     position: absolute;
 
     cursor: pointer;
 
+    border: 1px solid var(--theme-scarse-color);
+    padding: 1px;
+
+
+
+}
+
+
+.style-invert-color {
+
+    width: 30px;
+    height: 30px;
     background-color: var(--theme-scarse-color);
 
-    font: 500 0.5625rem  var(--theme-font);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size:  0.5625rem ;
+    font: 500;
+
     color: var(--theme-plentiful-color);
+
+}
+
+.style-dictionary {
+
+
+    position: absolute;
+
+    right: 10px;
+
+    top: 10px;
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    gap: 5px;
+
+}
+
+
+.style-description {
+
+    min-width: 30px;
+    height: 30px;
+
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+    cursor: zoom-in;
+
+}
+
+
+.style-term {
+
+    border: 1px solid var(--theme-scarse-color);
+    padding: 1px;
+
+}
+
+
+.style-meaning {
+
+    width: 100%;
+
+    font: 500 0.5625rem  var(--theme-font);
+
+    /*background-color: var(--theme-scarse-color);*/
+    color: #18181b;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 10px;
+
+
+    display: none;
+
+}
+
+.style-color {
+
+    width: 30px;
+    height: 30px;
+
+    display: inline-block;
+
+}
+
+
+.style-description:hover > .style-meaning {
+
+    display: inline-flex;
+
+}
+
+.style-empty {
+
+    background-color: var(--theme-scarse-empty);
+
+}
+
+
+.style-correct {
+
+    background-color: var(--theme-scarse-welcome);
+
+}
+
+
+.style-incorrect {
+
+    background-color: var(--theme-scarse-error);
 
 }
 

@@ -507,7 +507,7 @@ async function Main(){
 
     const Color = new Switch("div", "style-switch").Append(window.document.querySelector("body") as HTMLElement)
 
-    Color.Text('<span class="material-symbols-outlined">invert_colors</span>')
+    Color.Text('<span class="material-symbols-outlined style-invert-color">invert_colors</span>')
 
 
     Color.Action("click", (state: boolean) => {
