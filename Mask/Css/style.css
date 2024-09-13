@@ -563,7 +563,34 @@ video {
 
 }
 
+.style-table-cell-button {
 
+    border-width: 1px;
+    border-style: solid;
+    --tw-border-opacity: 1;
+    border-color: rgb(24 24 27 / var(--tw-border-opacity));
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+    font-family: var(--theme-font);
+    font-size: 0.5625rem;
+    line-height: 1rem;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(82 82 91 / var(--tw-text-opacity));
+
+    cursor: pointer;
+}
+
+
+.style-table-cell-button:hover {
+
+    background-color: var(--theme-plentiful-color);
+    color: var(--theme-scarse-color);
+
+}
 
 .style-table-cell:hover {
     background-color: var(--theme-plentiful-color);

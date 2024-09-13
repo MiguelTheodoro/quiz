@@ -166,6 +166,9 @@ class Assessment extends Dimension {
                         <td class="style-table-cell">${this.score.Value}</td>
                         <td class="style-table-cell">${(this.score.Value / this.score.Max * 100).toFixed(2)}%</td>
                     </tr>
+                    <tr class="style-property">
+                        <td class="style-table-cell-button" colspan="2" onclick="window.location.reload()">Reload</td>
+                    </tr>
                 </tbody>
 
             </table>
@@ -193,6 +196,8 @@ class Assessment extends Dimension {
         this.answer.Bind(this)
 
         this.time.Emit(this.Result.bind(this), -1)
+
+
         this.time.Animation(value.time)
 
     }
@@ -392,12 +397,17 @@ class Segment extends Dimension {
 
         this.property.identity = -1
 
+        console.timeEnd()
+
     }
 
 
     public Animation(time: number): void {
 
+        console.time()
         this.Reset()
+
+
 
 
         const duration  = time * 10 ** 3
